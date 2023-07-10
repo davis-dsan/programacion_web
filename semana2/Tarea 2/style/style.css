@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  margin: 20px 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: white;
+}
+
+li{
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Libre Baskerville', serif;
+  margin-right: 10px;
+  font-weight: bold;
+  
+}
+ul{
+  list-style: none;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+}
+
+.noticias-container{
+  display: flex;
+  
+}
+
+.art-noticias{
+  border: 1px solid black;
+  margin-right: 15px;
+}
+
+div{
+  
+  margin-right: 15px;
+
+}
+
+.formulario{
+  margin-top: 20px;
+}
+
+.eventos.container{
+  display: flex;
+}
+.titulo{
+  text-align: center;
+  
+}
