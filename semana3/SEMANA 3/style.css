@@ -1,0 +1,37 @@
+*{
+    margin: 1;
+    padding: 1
+    ;
+}/*resereto de valores*/
+
+
+
+.container{
+
+    width: 200px;
+    height: 200px;
+    /*background-color: aquamarine;*/
+    border: 4px solid rgb(8, 8, 8);
+    /*border: 1px dotted black;*/
+    display: flex;/*SIEMPRE VA EN LA ETIQUETA PADRE*/
+    justify-content: center;
+     align-items:  center; /*Aliniacion de items */
+}
+
+/* h2 + p{
+
+    color: red;
+
+}le toma en cuenta al mas cercano, o de manera general */
+
+/*h2 ~ p{
+
+    color: red;
+
+}/*le toma en cuenta a todos */
+
+
+div > p{
+
+    color: blue;
+}/*le toma solo a las p del div*/
